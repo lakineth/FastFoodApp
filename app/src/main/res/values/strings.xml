@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Food Delivery App</string>
+    <string name="addShipping">Add Shipping Address</string>
+
+    <string name="Addform_text1"><b>Full Name</b></string>
+    <string name="Addform_text2"><b>Code</b></string>
+    <string name="Addform_text3"><b>Phone Number</b></string>
+    <string name="Addform_text4"><b>Province/Region</b></string>
+    <string name="Addform_text5"><b>City</b></string>
+    <string name="Addform_text6"><b>Zone</b></string>
+    <string name="Addform_text7"><b>Address</b></string>
+    <string name="Addinput_text1"><b>Ex:Saman perera</b></string>
+    <string name="Addinput_text2"><b>94</b></string>
+    <string name="Addinput_text3"><b>Ex:773423345</b></string>
+    <string name="Addinput_text4"><b>South</b></string>
+    <string name="Addinput_text5"><b>Matara</b></string>
+    <string name="Addinput_text6"><b>Matara</b></string>
+    <string name="Addinput_text7"><b>Ex:No.23,Dharmapala Mawatha, Matara.</b></string>
+    <string name="addDetails">Save Details</string>
+
+</resources>
