@@ -147,7 +147,7 @@
         app:layout_constraintVertical_bias="0.524" />
 
     <EditText
-        android:id="@+id/editTxt1"
+        android:id="@+id/txtid"
         android:layout_width="240dp"
         android:layout_height="44dp"
         android:background="@drawable/edit"
@@ -162,7 +162,7 @@
         app:layout_constraintVertical_bias="0.444" />
 
     <EditText
-        android:id="@+id/editTxt2"
+        android:id="@+id/txtname"
         android:layout_width="240dp"
         android:layout_height="42dp"
         android:background="@drawable/edit"
@@ -177,7 +177,7 @@
         app:layout_constraintVertical_bias="0.522" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/btnUpdate"
         android:layout_width="107dp"
         android:layout_height="53dp"
         android:background="#FF5722"
