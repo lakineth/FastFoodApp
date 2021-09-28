@@ -90,8 +90,6 @@ public class DBhandler extends SQLiteOpenHelper {
         //close database
         sqLiteDatabase.close();
 
-
-
     }
 
     // Count checkout table records

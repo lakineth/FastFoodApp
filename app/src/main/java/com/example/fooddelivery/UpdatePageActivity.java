@@ -18,6 +18,7 @@ public class UpdatePageActivity extends AppCompatActivity {
     private Context context;
     private Long updateDate;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -35,7 +36,7 @@ public class UpdatePageActivity extends AppCompatActivity {
         zone = findViewById(R.id.editform6);
         address = findViewById(R.id.editform7);
 
-        edit = findViewById(R.id.btnContinue);
+        edit = findViewById(R.id.btnCon);
 
         final String id = getIntent().getStringExtra("id");
         CheckoutModel checkoutmodel = dbHandler.getSingleCheckoutModel(Integer.parseInt(id));

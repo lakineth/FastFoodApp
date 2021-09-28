@@ -10,19 +10,20 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FoodDelivery">
         <activity
+            android:name=".PayOnDeliveryMainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity6"
+            android:exported="true" />
+        <activity
             android:name=".Card_details_MainActivity"
-            android:exported="true" >
-
-        </activity>
+            android:exported="true" />
         <activity
             android:name=".activity_main_checkout"
-            android:exported="true"></activity>
+            android:exported="true" />
         <activity
             android:name=".UpdatePageActivity"
-            android:exported="true" >
-
-
-        </activity>
+            android:exported="true" />
         <activity
             android:name=".ListViewActivity"
             android:exported="true">
@@ -31,13 +32,10 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-
         </activity>
         <activity
             android:name=".Paymenttype"
-            android:exported="true">
-
-        </activity>
+            android:exported="true" />
         <activity
             android:name=".MainActivity2"
             android:exported="true" />

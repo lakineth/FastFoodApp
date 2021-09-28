@@ -177,7 +177,7 @@
             android:textColor="#3D5AFE"
             android:textColorLink="#3D5AFE"
             android:textSize="20sp"
-            app:layout_constraintBottom_toBottomOf="@+id/btnContinue"
+            app:layout_constraintBottom_toBottomOf="@+id/btnCon"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.835"
             app:layout_constraintStart_toStartOf="parent"
@@ -255,7 +255,7 @@
             app:layout_constraintVertical_bias="0.83" />
 
         <Button
-            android:id="@+id/btnContinue"
+            android:id="@+id/btnCon"
             android:layout_width="254dp"
             android:layout_height="48dp"
             android:background="#C6FF00"

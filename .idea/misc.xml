@@ -3,6 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/HASHANI SARANGA LIYA/Desktop/FoodDelivery/app/src/main/res/drawable/ic_baseline_edit_24.xml" value="0.16145833333333334" />
+        <entry key="..\:/Users/HASHANI SARANGA LIYA/Desktop/FoodDelivery/app/src/main/res/drawable/ic_baseline_location_on_24.xml" value="0.16145833333333334" />
+        <entry key="..\:/Users/HASHANI SARANGA LIYA/Desktop/FoodDelivery/app/src/main/res/drawable/ic_baseline_remove_red_eye_24.xml" value="0.16145833333333334" />
+        <entry key="..\:/Users/HASHANI SARANGA LIYA/Desktop/FoodDelivery/app/src/main/res/drawable/ic_baseline_search_24.xml" value="0.16145833333333334" />
+        <entry key="..\:/Users/HASHANI SARANGA LIYA/Desktop/FoodDelivery/app/src/main/res/drawable/ic_baseline_view_headline_24.xml" value="0.16145833333333334" />
         <entry key="..\:/Users/HASHANI SARANGA LIYA/Desktop/FoodDelivery/app/src/main/res/layout/activity_add_details.xml" value="0.1" />
         <entry key="..\:/Users/HASHANI SARANGA LIYA/Desktop/FoodDelivery/app/src/main/res/layout/activity_address_list.xml" value="0.18385416666666668" />
         <entry key="..\:/Users/HASHANI SARANGA LIYA/Desktop/FoodDelivery/app/src/main/res/layout/activity_card_details_main.xml" value="0.22" />
@@ -11,8 +16,10 @@
         <entry key="..\:/Users/HASHANI SARANGA LIYA/Desktop/FoodDelivery/app/src/main/res/layout/activity_list_view.xml" value="0.18" />
         <entry key="..\:/Users/HASHANI SARANGA LIYA/Desktop/FoodDelivery/app/src/main/res/layout/activity_main.xml" value="0.22" />
         <entry key="..\:/Users/HASHANI SARANGA LIYA/Desktop/FoodDelivery/app/src/main/res/layout/activity_main2.xml" value="0.17864583333333334" />
+        <entry key="..\:/Users/HASHANI SARANGA LIYA/Desktop/FoodDelivery/app/src/main/res/layout/activity_main6.xml" value="0.33" />
         <entry key="..\:/Users/HASHANI SARANGA LIYA/Desktop/FoodDelivery/app/src/main/res/layout/activity_main_checkout.xml" value="0.25" />
         <entry key="..\:/Users/HASHANI SARANGA LIYA/Desktop/FoodDelivery/app/src/main/res/layout/activity_main_checkout2.xml" value="0.25" />
+        <entry key="..\:/Users/HASHANI SARANGA LIYA/Desktop/FoodDelivery/app/src/main/res/layout/activity_pay_on_delivery_main.xml" value="0.22" />
         <entry key="..\:/Users/HASHANI SARANGA LIYA/Desktop/FoodDelivery/app/src/main/res/layout/activity_paymenttype.xml" value="0.2" />
         <entry key="..\:/Users/HASHANI SARANGA LIYA/Desktop/FoodDelivery/app/src/main/res/layout/activity_update_page.xml" value="0.19947916666666668" />
         <entry key="..\:/Users/HASHANI SARANGA LIYA/Desktop/FoodDelivery/app/src/main/res/layout/single.xml" value="0.33" />
