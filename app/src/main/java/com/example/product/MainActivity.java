@@ -6,11 +6,16 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
+import android.service.autofill.RegexValidator;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.Toast;
+
+import com.basgeekball.awesomevalidation.AwesomeValidation;
+import com.basgeekball.awesomevalidation.ValidationStyle;
+import com.basgeekball.awesomevalidation.utility.RegexTemplate;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -65,8 +70,11 @@ public class MainActivity extends AppCompatActivity {
         txtdesc = findViewById(R.id.txtdesc);
         txtcate = findViewById(R.id.txtcate);
 
-        btnAdd = findViewById(R.id.btnUpdate);
+        btnAdd = findViewById(R.id.btnAdd);
         DB = new SQLiteHelper(this);
+
+
+
 
         btnAdd.setOnClickListener(new View.OnClickListener() {
             @Override

@@ -247,7 +247,7 @@
         app:layout_constraintVertical_bias="0.83" />
 
     <Button
-        android:id="@+id/btnUpdate"
+        android:id="@+id/btnAdd"
         android:layout_width="113dp"
         android:layout_height="48dp"
         android:background="#FF5722"

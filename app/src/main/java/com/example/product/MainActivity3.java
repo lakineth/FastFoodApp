@@ -6,10 +6,8 @@ import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.Spinner;
 import android.widget.Toast;
 
 public class MainActivity3 extends AppCompatActivity {
@@ -30,7 +28,7 @@ public class MainActivity3 extends AppCompatActivity {
         txtprice = findViewById(R.id.txtprice);
         txtdesc = findViewById(R.id.txtdesc);
         txtcate2 = findViewById(R.id.txtcate2);
-        btnUpdate = findViewById(R.id.btnUpdate);
+        btnUpdate = findViewById(R.id.btnAdd);
 
 
         final String id = getIntent().getStringExtra("name");

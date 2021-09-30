@@ -17,6 +17,7 @@ public class SQLiteHelper extends SQLiteOpenHelper {
     private static final String description = "description";
     private static final String category = "category";
 
+
     public SQLiteHelper( Context context) {
         super(context, "Product.db", null, 1);
     }
@@ -25,11 +26,15 @@ public class SQLiteHelper extends SQLiteOpenHelper {
     @Override
     public void onCreate(SQLiteDatabase DB) {
         DB.execSQL("create Table fooddetails(PID TEXT primary key, name TEXT, price FLOAT, description TEXT, category TEXT)");
+        DB.execSQL("create Table categories(CID TEXT primary key , cname TEXT)");
     }
 
     @Override
     public void onUpgrade(SQLiteDatabase DB, int oldVersion, int newVersion) {
          DB.execSQL("drop Table if exists fooddetails");
+         DB.execSQL("DROP TABLE IF EXISTS categories");
+
+
     }
     public Boolean insertfood(String PID, String name, String price, String description, String category){
         SQLiteDatabase DB = this.getWritableDatabase();
@@ -41,6 +46,19 @@ public class SQLiteHelper extends SQLiteOpenHelper {
         contentValues.put("category",category);
         long result = DB.insert("fooddetails", null, contentValues);
         if(result == -1){
+            return false;
+        }else{
+            return true;
+        }
+
+    }
+    public Boolean insertcate(String CID, String cname){
+        SQLiteDatabase db = this.getWritableDatabase();
+        ContentValues contentValues = new ContentValues();
+        contentValues.put("CID",CID);
+        contentValues.put("cname",cname);
+        long results = db.insert("categories", null, contentValues);
+        if(results == -1){
             return false;
         }else{
             return true;
@@ -82,6 +100,21 @@ public class SQLiteHelper extends SQLiteOpenHelper {
             return false;
         }
     }
+    public Boolean deletecate(String CID){
+        SQLiteDatabase DB = this.getWritableDatabase();
+        Cursor cursor = DB.rawQuery("Select * from categories where CID = ?", new String[]{CID});
+        if(cursor.getCount()>0) {
+            long result = DB.delete("categories",  "CID=?", new String[]{CID});
+            if (result == -1) {
+                return false;
+            } else {
+                return true;
+            }
+        }else {
+            return false;
+        }
+    }
+
     public List<FoodModel> getAll(){
         List<FoodModel> foods = new ArrayList<>();
         SQLiteDatabase DB = getReadableDatabase();
@@ -98,6 +131,20 @@ public class SQLiteHelper extends SQLiteOpenHelper {
             }while (cursor.moveToNext());
         }
         return foods;
+    }
+    public List<CateModel> getAllCate(){
+        List<CateModel> cates = new ArrayList<>();
+        SQLiteDatabase DB = getReadableDatabase();
+        Cursor cursor = DB.rawQuery("Select * FROM categories",null);
+        if(cursor.moveToFirst()){
+            do{
+                CateModel cateModel = new CateModel();
+                cateModel.setCID(cursor.getString(0));
+                cateModel.setCname(cursor.getString(1));
+                cates.add(cateModel);
+            }while (cursor.moveToNext());
+        }
+        return cates;
     }
 
 

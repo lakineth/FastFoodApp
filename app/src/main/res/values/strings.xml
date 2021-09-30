@@ -33,6 +33,7 @@
     <string name="bolded_text31"><b>Mashroom Pizza</b></string>
     <string name="bolded_text32"><b>It is made with fried mashrooms with cheese.</b></string>
     <string name="bolded_text33"><b>Rs. 1350.00</b></string>
+    <string name="invalid_productID">Please Enter Valid ID</string>
 
 
     <string-array name="names">

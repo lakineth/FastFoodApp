@@ -6,122 +6,6 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity5">
 
-    <EditText
-        android:id="@+id/txtM2"
-        android:layout_width="369dp"
-        android:layout_height="49dp"
-        android:ems="10"
-        android:gravity="start|top"
-        android:inputType="textMultiLine"
-        android:text="Burger"
-        android:textColor="@color/black"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.453" />
-
-    <Button
-        android:id="@+id/btnList"
-        android:layout_width="94dp"
-        android:layout_height="37dp"
-        android:text="Delete"
-        android:textColor="#FA0303"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.943"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.448" />
-
-    <Button
-        android:id="@+id/btnList4"
-        android:layout_width="94dp"
-        android:layout_height="37dp"
-        android:text="Delete"
-        android:textColor="#FA0303"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.943"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.568" />
-
-    <Button
-        android:id="@+id/btnList5"
-        android:layout_width="94dp"
-        android:layout_height="37dp"
-        android:text="Delete"
-        android:textColor="#FA0303"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.946"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.638" />
-
-    <Button
-        android:id="@+id/btnList2"
-        android:layout_width="94dp"
-        android:layout_height="37dp"
-        android:text="Delete"
-        android:textColor="#FA0303"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.939"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.508" />
-
-    <EditText
-        android:id="@+id/txtM1"
-        android:layout_width="369dp"
-        android:layout_height="49dp"
-        android:ems="10"
-        android:gravity="start|top"
-        android:inputType="textMultiLine"
-        android:text="Kottu"
-        android:textColor="@color/black"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.516" />
-
-    <EditText
-        android:id="@+id/txtM3"
-        android:layout_width="369dp"
-        android:layout_height="49dp"
-        android:ems="10"
-        android:gravity="start|top"
-        android:inputType="textMultiLine"
-        android:text="Juice"
-        android:textColor="@color/black"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.578" />
-
-    <EditText
-        android:id="@+id/txtM4"
-        android:layout_width="369dp"
-        android:layout_height="49dp"
-        android:ems="10"
-        android:gravity="start|top"
-        android:inputType="textMultiLine"
-        android:text="Faluda"
-        android:textColor="@color/black"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.647" />
-
     <TextView
         android:id="@+id/txtV1"
         android:layout_width="164dp"
@@ -165,7 +49,7 @@
 
     <Button
         android:id="@+id/btnAddC"
-        android:layout_width="91dp"
+        android:layout_width="82dp"
         android:layout_height="55dp"
         android:background="#26B81C"
         android:text="Add Category"
@@ -179,21 +63,21 @@
 
     <Button
         android:id="@+id/btnDataC"
-        android:layout_width="105dp"
-        android:layout_height="54dp"
+        android:layout_width="82dp"
+        android:layout_height="55dp"
         android:background="#1EE1E1"
         android:text="Category Details"
         android:textColor="#1B1C1B"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.336"
+        app:layout_constraintHorizontal_bias="0.324"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.183" />
+        app:layout_constraintVertical_bias="0.181" />
 
     <Button
         android:id="@+id/btnAddP"
-        android:layout_width="85dp"
+        android:layout_width="82dp"
         android:layout_height="55dp"
         android:background="#26B81C"
         android:text="Add Product"
@@ -201,14 +85,14 @@
         android:textSize="12sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.701"
+        app:layout_constraintHorizontal_bias="0.675"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.182" />
+        app:layout_constraintVertical_bias="0.183" />
 
     <Button
         android:id="@+id/btnDataP"
-        android:layout_width="85dp"
+        android:layout_width="82dp"
         android:layout_height="54dp"
         android:background="#1EE1E1"
         android:text="Product Deatils"
@@ -219,35 +103,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.183" />
-
-    <EditText
-        android:id="@+id/txtM"
-        android:layout_width="369dp"
-        android:layout_height="49dp"
-        android:ems="10"
-        android:gravity="start|top"
-        android:inputType="textMultiLine"
-        android:text="Pizza"
-        android:textColor="@color/black"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.394" />
-
-    <Button
-        android:id="@+id/btnList1"
-        android:layout_width="94dp"
-        android:layout_height="37dp"
-        android:text="Delete"
-        android:textColor="#FA0303"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.946"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.388" />
 
     <TextView
         android:id="@+id/textV25"
@@ -262,6 +117,16 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.282" />
+
+    <ListView
+        android:id="@+id/list_view2"
+        android:layout_width="393dp"
+        android:layout_height="379dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
